@@ -19,13 +19,23 @@
 <!-- ================= HEADER ================= -->
 <header class="header">
   <h2 class="logo">PARI.</h2>
-  <nav>
+  <nav class="nav-links">
     <a href="#home" class="active">Home</a>
     <a href="#about">About</a>
     <a href="#skills">Skills</a>
     <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
     <a href="#contact">Contact</a>
   </nav>
+  <button class="menu-toggle"><i class='bx bx-menu'></i></button>
+  <div class="nav-drawer">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+  </div>
 </header>
 
 <!-- ================= HOME ================= -->
@@ -44,13 +54,13 @@
       </a>
 
       <a href="pari chakalashiya-resume (2).pdf" download class="btn outline">
-        <i class='bx bx-download'></i> Download Resume
+        <i class='bx bx-download'></i> Download resume
       </a>
     </div>
   </div>
 
   <div class="home-img">
-    <img src="pari.jpg" alt="Pari Photo">
+    <img src="photo.jpg" alt="Pari Photo">
   </div>
 </section>
 
@@ -61,12 +71,10 @@
 
   <div class="about-container">
 
-    <!-- LEFT IMAGE -->
     <div class="about-image">
-      <img src="pari2.jpg" alt="About Photo">
+      <img src="photo2.jpg" alt="About Photo">
     </div>
 
-    <!-- RIGHT CONTENT -->
     <div class="about-content">
 
       <div class="about-cards">
@@ -91,8 +99,7 @@
       <p class="about-text">
         I’ve completed my BCA and specialize in Frontend Development.
         I work with JavaScript, React and modern UI design. I enjoy
-        building clean, efficient and user-friendly websites and love
-        collaborating with teams to solve real-world problems.
+        building clean, efficient and user-friendly websites.
       </p>
 
       <a href="#contact" class="btn">Let’s Talk</a>
@@ -105,46 +112,141 @@
 <section class="experience" id="skills">
   <p class="section-subtitle">What Skills I Have</p>
   <h2 class="section-title">My Skills</h2>
-
   <div class="experience-container">
-
-    <!-- FRONTEND -->
     <div class="experience-box">
       <h3>Frontend Development</h3>
-
       <div class="experience-content">
-        <div class="skill"><i class='bx bxs-badge-check'></i><div><h4>HTML</h4><small>Expert</small></div></div>
-        <div class="skill"><i class='bx bxs-badge-check'></i><div><h4>CSS</h4><small>Intermediate</small></div></div>
-        <div class="skill"><i class='bx bxs-badge-check'></i><div><h4>JavaScript</h4><small>Expert</small></div></div>
-        <div class="skill"><i class='bx bxs-badge-check'></i><div><h4>React JS</h4><small>Expert</small></div></div>
-        <div class="skill"><i class='bx bxs-badge-check'></i><div><h4>Angular</h4><small>Intermediate</small></div></div>
+        <div class="skill">
+          <i class='bx bxl-html5'></i><div><h4>HTML</h4><small>Expert</small></div>
+        </div>
+        <div class="skill-bar"><span style="width:95%"></span></div>
+        <div class="skill">
+          <i class='bx bxl-css3'></i><div><h4>CSS</h4><small>Advanced</small></div>
+        </div>
+        <div class="skill-bar"><span style="width:85%"></span></div>
+        <div class="skill">
+          <i class='bx bxl-javascript'></i><div><h4>JavaScript</h4><small>Advanced</small></div>
+        </div>
+        <div class="skill-bar"><span style="width:90%"></span></div>
+        <div class="skill">
+          <i class='bx bxl-react'></i><div><h4>React</h4><small>Advanced</small></div>
+        </div>
+        <div class="skill-bar"><span style="width:80%"></span></div>
+        <div class="skill">
+          <i class='bx bxl-angular'></i><div><h4>Angular</h4><small>Intermediate</small></div>
+        </div>
+        <div class="skill-bar"><span style="width:70%"></span></div>
       </div>
     </div>
-
-    <!-- BACKEND -->
     <div class="experience-box filled">
       <h3>Backend Development</h3>
-
       <div class="experience-content">
-        <div class="skill"><i class='bx bxs-badge-check'></i><div><h4>Node JS</h4><small>Expert</small></div></div>
-        <div class="skill"><i class='bx bxs-badge-check'></i><div><h4>MongoDB</h4><small>Expert</small></div></div>
-        <div class="skill"><i class='bx bxs-badge-check'></i><div><h4>Express</h4><small>Expert</small></div></div>
-        <div class="skill"><i class='bx bxs-badge-check'></i><div><h4>MySQL</h4><small>Expert</small></div></div>
-        <div class="skill"><i class='bx bxs-badge-check'></i><div><h4>Django</h4><small>Intermediate</small></div></div>
+        <div class="skill">
+          <i class='bx bxl-nodejs'></i><div><h4>Node.js</h4><small>Intermediate</small></div>
+        </div>
+        <div class="skill-bar"><span style="width:70%"></span></div>
+        <div class="skill">
+          <i class='bx bxl-mongodb'></i><div><h4>MongoDB</h4><small>Intermediate</small></div>
+        </div>
+        <div class="skill-bar"><span style="width:65%"></span></div>
+        <div class="skill">
+          <i class='bx bxl-mysql'></i><div><h4>MySQL</h4><small>Intermediate</small></div>
+        </div>
+        <div class="skill-bar"><span style="width:65%"></span></div>
+        <div class="skill">
+          <i class='bx bxl-php'></i><div><h4>PHP</h4><small>Beginner</small></div>
+        </div>
+        <div class="skill-bar"><span style="width:50%"></span></div>
       </div>
     </div>
-
   </div>
 </section>
+<!-- ================= EXPERIENCE ================= -->
+<section class="experience-section" id="experience">
+  <p class="section-subtitle">My Professional Journey</p>
+  <h2 class="section-title">Experience</h2>
+
+  <div class="experience-card">
+
+    <!-- LEFT -->
+    <div class="experience-left">
+      <h3>Data Science & Machine Learning Intern</h3>
+      <h4>BrainyBeam Info-Tech Pvt. Ltd.</h4>
+      <span>Nov 2025 – Dec 2025 · Internship</span>
+    </div>
+
+    <!-- RIGHT -->
+    <div class="experience-right">
+      <p>
+        Worked as a Data Science & Machine Learning Intern on real-world projects.
+        Gained hands-on experience with data preprocessing, model building,
+        and practical ML workflows under professional guidance.
+      </p>
+
+      <ul>
+        <li>Hands-on experience with real datasets</li>
+        <li>Worked on ML models and data analysis</li>
+        <li>Followed professional coding standards</li>
+        <li>Improved teamwork and industry practices</li>
+      </ul>
+
+      <h5>Technologies Used</h5>
+      <div class="tech-stack">
+        <span>Python</span>
+        <span>Machine Learning</span>
+        <span>Pandas</span>
+        <span>NumPy</span>
+        <span>Data Analysis</span>
+      </div>
+
+      <div class="experience-buttons">
+        <a href="internship.pdf" target="_blank" class="btn secondary">
+          <i class='bx bx-show'></i> View Certificate
+        </a>
+      </div>
+    </div>
+   
+  </div>
+</section>
+
 
 <!-- ================= PROJECTS ================= -->
 <section class="projects" id="projects">
   <h2 class="section-title">Projects</h2>
-
   <div class="project-container">
-    <div class="project-card">Portfolio Website</div>
-    <div class="project-card">Management System</div>
-    <div class="project-card">AI Based Project</div>
+    <div class="project-card">
+      <h3>Portfolio Website</h3>
+      <p>A personal responsive portfolio showcasing skills, projects, and contact.</p>
+      <div class="tech-stack">
+        <span>HTML</span><span>CSS</span><span>JavaScript</span>
+      </div>
+      <div class="project-actions">
+        <a href="#" class="btn outline">View Live</a>
+        <a href="#" class="btn secondary">GitHub</a>
+      </div>
+    </div>
+    <div class="project-card">
+      <h3>Car Website</h3>
+      <p>A modern UI car showcase with responsive design and smooth layout.</p>
+      <div class="tech-stack">
+        <span>HTML</span><span>CSS</span><span>JavaScript</span>
+      </div>
+      <div class="project-actions">
+        <a href="#" class="btn outline">View Live</a>
+        <a href="#" class="btn secondary">GitHub</a>
+      </div>
+    </div>
+    <div class="project-card">
+      <h3>Business Future Prediction</h3>
+      <p>Analyzes business data to predict future trends and insights.</p>
+      <div class="tech-stack">
+        <span>Python</span><span>Machine Learning</span><span>Data Analysis</span>
+      </div>
+      <div class="project-actions">
+        <a href="#" class="btn outline">View Details</a>
+        <a href="#" class="btn secondary">GitHub</a>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -155,19 +257,24 @@
 
   <div class="contact-container">
 
-    <div class="contact-options">
+    <!-- Left Side: Contact Info -->
+    <div class="contact-info-wrapper">
+      <div class="contact-socials">
+        <h3>Find me on</h3>
+        <a href="https://github.com/parichakalashiya-lgtm" target="_blank">
+          <i class='bx bxl-github'></i>
+        </a>
+        <a href="https://www.linkedin.com/in/pari-chakalashiya-493139368" target="_blank">
+          <i class='bx bxl-linkedin'></i>
+        </a>
+      </div>
+
       <div class="contact-card">
         <i class='bx bx-envelope'></i>
         <h4>Email</h4>
         <h5>parichakalashiya@gmail.com</h5>
-        <a href="mailto:parichakalashiya@gmail.com">Send an email</a>
-      </div>
-
-      <div class="contact-card filled">
-        <i class='bx bxl-messenger'></i>
-        <h4>Messenger</h4>
-        <h5>Pari Chakalashiya</h5>
-        <a href="#">Send a message</a>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=parichakalashiya@gmail.com" target="_blank">Send an email</a>
+        <button class="btn outline small" id="copy-email">Copy Email</button>
       </div>
 
       <div class="contact-card">
@@ -178,10 +285,11 @@
       </div>
     </div>
 
-    <form class="contact-form">
-      <input type="text" placeholder="Your Full Name" required>
-      <input type="email" placeholder="Your Email" required>
-      <textarea rows="6" placeholder="Your Message" required></textarea>
+    <!-- Right Side: Contact Form -->
+    <form class="contact-form" id="contactForm">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="7" placeholder="Your Message" required></textarea>
       <button type="submit" class="btn">Send Message</button>
     </form>
 
@@ -197,7 +305,43 @@
   <a href="#contact" class="nav-item"><i class="bx bx-message"></i></a>
 </div>
 
+<div class="toast" id="toast">Copied to clipboard</div>
+<script>
+const toggle=document.querySelector('.menu-toggle');const drawer=document.querySelector('.nav-drawer');const links=drawer.querySelectorAll('a');toggle.addEventListener('click',()=>{drawer.classList.toggle('open')});links.forEach(l=>l.addEventListener('click',()=>drawer.classList.remove('open')));
+const toast=document.getElementById('toast');function showToast(msg){toast.textContent=msg;toast.classList.add('show');setTimeout(()=>toast.classList.remove('show'),2000)}
+const copyBtn=document.getElementById('copy-email');if(copyBtn){copyBtn.addEventListener('click',async()=>{try{await navigator.clipboard.writeText('parichakalashiya@gmail.com');showToast('Email copied')}catch(e){alert('Email: parichakalashiya@gmail.com')}})}
+
+const contactForm = document.getElementById('contactForm');
+if(contactForm){
+  contactForm.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const formData = new FormData(contactForm);
+    const data = Object.fromEntries(formData.entries());
+    
+    try {
+      const response = await fetch('/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(data)
+      });
+      
+      const result = await response.json();
+      if(result.success){
+        showToast('Message Sent Successfully!');
+        contactForm.reset();
+      } else {
+        // Show specific error message from server
+        showToast(result.message || 'Failed to send message.');
+      }
+    } catch (error) {
+      console.error('Error:', error);
+      showToast('Server connection failed.');
+    }
+  });
+}
+
+</script>
 </body>
 </html>
-
-
